@@ -39,6 +39,6 @@ Y tener tests que prueben los siguientes casos:
   El material comienza al natural pero puede ser cromado u oxidado cuando se desee.
 
 - Testear los siguientes casos de prueba:
-  - Un bolichito con un muñeco de 500 gramos en mostrador y una cajita de plomo con un arito dentro es brillante pero no tiene luz.
+  - Un bolichito con un muñeco de 500 gramos en mostrador y una cajita de plomo con un arito dentro en vidriera es brillante pero no tiene luz.
   - La misma situación pero con una cajita de plomo cromado, entonces el bolichito es brillante y tiene luz.
   - La misma situación pero con una cajita de plomo oxidado, entonces el bolichito no es brillante ni tiene luz.
