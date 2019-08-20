@@ -7,6 +7,7 @@ Por suerte para nosotros, alguien ya implementó lo pedido. Pero nos dieron la t
 ## Code Review
 
 Revisar que lo que esté hecho funciona correctamente. Para ello se cuenta con algunos tests que prueban la funcionalidad de algunos objetos. Correrlos y ver que todo esté correcto y sin errores.
+
 **En el caso de encontrar errores deberán arreglarlos** teniendo la documentación otorgada como _fuente de la verdad_.
 
 ## Más cosas
