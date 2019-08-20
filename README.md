@@ -18,7 +18,7 @@ Agregar al modelo estos objetos:
 - un _banquito_ de madera que pesa 1700 gramos. 
   Al principio es naranja, pero puede cambiar de color. 
   El naranja es un color fuerte.
-- una _cajita_ roja, que tiene un objeto adentro. Puede ser de cualquier material. 
+- una _cajita_ roja, que tiene un objeto adentro. La cajita puede ser de cualquier material. 
   Este objeto puede ser cualquiera de los definidos previamente, y puede cambiar.
   El peso de la cajita es de 400 gramos más el peso de lo que tiene adentro.
     
