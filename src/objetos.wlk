@@ -10,6 +10,11 @@ object vidrio { method brilla() { return true } }
 object lino { method brilla() { return false } }
 object madera { method brilla() { return false } }
 object cuero { method brilla() { return false } }
+object plomo {
+	var estado = "natural"
+	method brilla() { return estado == "natural" }
+	method estado(_estado) { estado = _estado }
+}
 
 /* objetos */
 object remera {
@@ -33,10 +38,10 @@ object biblioteca {
 object munieco {
 	var _peso 
 	
-	method color() { return _color }
+	method color() { return celeste }
 	method material() { return vidrio }
 	method peso() { return _peso }
-	method setPeso(peso) { _peso = peso }
+	method peso(peso) { _peso = peso }
 }
 
 object placa {
@@ -44,10 +49,10 @@ object placa {
 	var _peso 
 	
 	method color() { return _color }
-	method setColor(color) { _color = color }
+	method color(color) { _color = color }
 	method material() { return cobre }
 	method peso() { return _peso }
-	method setPeso(peso) { _peso = peso }
+	method peso(peso) { _peso = peso }
 }
 
 
