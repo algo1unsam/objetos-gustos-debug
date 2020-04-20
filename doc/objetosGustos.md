@@ -14,7 +14,7 @@ Tener en cuenta a estas personas:
 Como **colores** contemplar (al menos) rojo, verde, celeste y pardo. 
 De estos, los dos primeros son fuertes, los otros no.
 
-Como **materiales** tenemos: el cobre y el vidrio que brillan; el lino, la madera y el cuero que no; y el plomo, que brilla solamente cuando su estado es _natural_ (también puede estar _oxidado_).
+Como **materiales** tenemos: el cobre y el vidrio que brillan; el lino, la madera y el cuero que no; y el plomo, que brilla solamente cuando su estado es _natural_ (el plomo comienza al _natural_ pero puede _oxidarse_).
 
 Finalmente, considerar (al menos) estos objetos:
   - una _remera_ roja de lino, pesa 800 gramos.
