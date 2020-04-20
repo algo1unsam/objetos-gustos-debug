@@ -1,8 +1,8 @@
 # Gustos
 
-Unos amigos se están por abrir un bilichito y nos pidieron un sistema para determinar qué cosas le gustan a las personas. Toda la documentación se encuentra en [este documento](doc/objetosGustos.md).
+Unos amigos se están por abrir un bilichito y nos pidieron un sistema para determinar qué cosas le gustan a las personas. Nos dieron [esta documentación](doc/objetosGustos.md) que indica qué cosas esperan del sistema.
 
-Por suerte para nosotros, alguien ya implementó lo pedido. Pero nos dieron la tarea de revisar su trabajo.
+Por suerte para nosotros, alguien ya implementó lo pedido. Pero nos dieron la tarea de **revisar** el trabajo.
 
 ## Code Review
 
@@ -30,15 +30,14 @@ Y tener tests que prueben los siguientes casos:
 
 ## Se hizo la luz
 
-- Ahora también queremos saber si **el bolichito tiene luz** que se cumple cuando alguno de los dos objetos está hecho de un material que conduce la electricidad. De los amteriales que tenemos por ahora, solo el cobre conduce la electricidad.
+Además nos piden saber si **el bolichito tiene luz** que se cumple cuando alguno de los dos objetos está hecho de un material que conduce la electricidad. 
 
-- Agregar como material al plomo que puede estar en uno de sus tres estados: _natural_, _cromado_ u _oxidado_.
-  - Cuando está al natural, el material brilla pero no conduce la electricidad.
-  - Cuando está cromado, el material brilla y conduce la electricidad.
-  - Cuando está oxidado, el material no brilla ni conduce la electricidad.
-  El material comienza al natural pero puede ser cromado u oxidado cuando se desee.
+De los materiales que tenemos por ahora: el cobre conduce la electricidad siempre, y del plomo sabemos que conduce la electricidad cuando la _resistividad_ es menor a `0.5`. La _resistividad_ del plomo depende de su estado:
+  - Cuando está al natural, el material brilla y su resistividad es de `0.7`.
+  - Cuando está oxidado, el material no brilla y su resistividad es de `1`.
+  - Cuando está cromado, el material brilla y su resistividad es de `0.2`.
 
-- Testear los siguientes casos de prueba:
+Testear los siguientes casos de prueba:
   - Un bolichito con un muñeco de 500 gramos en mostrador y una cajita de plomo con un arito dentro en vidriera es brillante pero no tiene luz.
   - La misma situación pero con una cajita de plomo cromado, entonces el bolichito es brillante y tiene luz.
   - La misma situación pero con una cajita de plomo oxidado, entonces el bolichito no es brillante ni tiene luz.
